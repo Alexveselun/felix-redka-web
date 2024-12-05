@@ -1,0 +1,19 @@
+  .reviews_name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .reviews_text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .reviews_rating {
+    font-size: 20px;
+    color: #ff5722;
+  }
+  
