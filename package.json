@@ -1,7 +1,16 @@
 {
-  "name": "girlyanda-shop-web",
-  "version": "0.1.0",
   "private": true,
+  "name": "girlyanda-shop-web",
+  "author": "alexveselun",
+  "homepage": "https://alexveselun.github.io/girlyanda-shop-web/",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -b gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -17,12 +26,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+
   "eslintConfig": {
     "extends": [
       "react-app",
