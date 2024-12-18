@@ -60,6 +60,8 @@ a:focus { outline: none; }
 .section {
   padding: 50px 20px;
   text-align: center;
+  justify-content: center;
+
 }
 
 .text-title {
@@ -82,12 +84,12 @@ a:focus { outline: none; }
   margin-left: 1rem;  
   margin-right: 1rem;
   margin: 0.5rem;
-  font-size: 14px;
+  font-size: 13px;
   color: #033;
 }
 
 .text_date{
-  font-size: 14px;
+  font-size: 12px;
   padding-top: 0.5rem;
   color: #033;
 }
