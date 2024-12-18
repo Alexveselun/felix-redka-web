@@ -8,7 +8,9 @@
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  /* background-image: url("../../../assets/images/header/header-background.jpg"); */
+  background-image: url("../../assets/images/header/header-open.jpeg");
+  /* background-size: cover; Охоплює весь екран */
+  background-position: center center;
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -35,7 +37,6 @@
   height: 100vh;
   width: 100%;
   position: relative;
-  
 }
 
 .menu-item {
@@ -69,12 +70,14 @@
   font-family: "Silka-Regular";
   font-weight: bold;
   text-align: center;
-  color: white ;
-
+  color: white;
 }
 
-.white {
-  color: white;
+.logo-text.open {
+  font-family: "Silka-Regular";
+  font-weight: bold;
+  text-align: center;
+  color: black;
 }
 
 .header.scrolled .logo-container {
@@ -107,8 +110,8 @@
 .menu-icon:hover {
   cursor: pointer;
   transition: all 0.3s ease-out;
-  box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.2); 
-  transform: scale(1.08);    
+  box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.08);
 }
 
 .hamburger {
@@ -154,43 +157,6 @@
   top: 0;
 }
 
-/* Alert (Error) Message */
-.alert {
-  background-color: #f8d7da; /* Light red background */
-  color: #721c24; /* Dark red text */
-  padding: 12px 20px;
-  border: 1px solid #f5c6cb;
-  border-radius: 4px;
-  font-size: 16px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.alert::before {
-  content: "⚠️ "; /* Optional warning icon */
-  margin-right: 8px;
-}
-
-/* Success Message */
-.success {
-  background-color: #d4edda; /* Light green background */
-  color: #155724; /* Dark green text */
-  padding: 12px 20px;
-  border: 1px solid #c3e6cb;
-  border-radius: 4px;
-  font-size: 16px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.success::before {
-  content: "✅ "; /* Optional checkmark icon */
-  margin-right: 8px;
-}
-
-
 /* ------------------------- Адаптивні стилі -------------------------------------------------- */
 
 @media (min-width: 780px) {
@@ -200,9 +166,7 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .header {
-  }
-
+  .header {}
 
   .menu-list {
     flex-direction: column;
@@ -223,9 +187,10 @@
     top: 1.5rem;
     left: 50%;
     font-size: 30px;
+    transform: translateX(-50%);
   }
-  
-  .mobile-disable{
+
+  .mobile-disable {
     display: none;
   }
 
@@ -240,9 +205,7 @@
     padding: 10px;
     font-size: 0.9rem;
   }
-
 }
-
 
 /* ------------------------- Додаткові стилі -------------------------------------------------- */
 .switch {
@@ -252,13 +215,3 @@
 .grey-color {
   color: #868e96;
 }
-
-/* ------------------------- Не використовувані стилі -------------------------------------------------- */
-/* Вилучено:
-.logo-home
-.navigation-fade
-.nav-cta-btn
-nav
-*/
-
-/* Стилі для .logo-home і .nav залишені, якщо вони використовуються в інших файлах або компонентах */

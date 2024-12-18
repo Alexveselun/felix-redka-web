@@ -1,37 +1,41 @@
-/* src/components/Footer/Footer.css */
+.main-content {
+  min-height: 100%;  /* Гарантує, що основний контент займає всю висоту сторінки */
+  display: flex;
+  flex-direction: column;
+}
+
 .footer {
-    padding: 20px 15px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .footer_container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer_text {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  .footer_links {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .footer_link {
-    font-size: 14px;
-    color: #ff5722;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .footer_link:hover {
-    color: #e64a19;
-  }
-  
+  padding: 20px 15px;
+  color: #fff;
+  text-align: center;
+  margin-top: auto;  /* Це дозволяє футеру завжди бути внизу */
+}
+
+.footer_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer_text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer_links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer_link {
+  font-size: 14px;
+  color: #ff5722;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer_link:hover {
+  color: #e64a19;
+}

@@ -1,6 +1,7 @@
 // src/components/Footer/Footer.tsx
 import React from 'react';
 import './Footer.css';
+import SocialIcons from '../SocialIcons/SocialIcons';
 
 const Footer: React.FC = () => {
   return (
@@ -9,13 +10,7 @@ const Footer: React.FC = () => {
         <p className="footer_text">© {new Date().getFullYear()} Всі права захищені.</p>
         <ul className="footer_links">
           <li>
-            <a href="#advantages" className="footer_link">Переваги</a>
-          </li>
-          <li>
-            <a href="#reviews" className="footer_link">Відгуки</a>
-          </li>
-          <li>
-            <a href="#contacts" className="footer_link">Контакти</a>
+            <a href="mailto:felixredka@ukr.net" className="footer_link">Написати мені</a>
           </li>
         </ul>
       </div>
