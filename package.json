@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "girlyanda-shop-web",
+  "name": "felix-redka-web",
   "author": "alexveselun",
-  "homepage": "https://alexveselun.github.io/girlyanda-shop-web/",
+  "homepage": "https://alexveselun.github.io/felix-redka-web/",
   "version": "0.1.0",
   "scripts": {
     "start": "react-scripts start",
