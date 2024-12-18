@@ -1,7 +1,6 @@
 // src/components/Footer/Footer.tsx
 import React from 'react';
 import './Footer.css';
-import SocialIcons from '../SocialIcons/SocialIcons';
 
 const Footer: React.FC = () => {
   return (
