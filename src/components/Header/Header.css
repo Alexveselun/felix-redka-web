@@ -8,8 +8,8 @@
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  background-image: url("../../assets/images/header/header-open.jpeg");
-  /* background-size: cover; Охоплює весь екран */
+  background-image: url("../../assets/images/header/header-open.jpg");
+  background-size: cover;
   background-position: center center;
   transition: background-color 0.3s ease-in-out;
 }
