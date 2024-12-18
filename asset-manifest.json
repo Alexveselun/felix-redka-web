@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/felix-redka-web/static/css/main.1a46d820.css",
-    "main.js": "/felix-redka-web/static/js/main.9ebbb6ec.js",
+    "main.css": "/felix-redka-web/static/css/main.bce3d918.css",
+    "main.js": "/felix-redka-web/static/js/main.eba841d0.js",
     "static/js/453.0ff5e331.chunk.js": "/felix-redka-web/static/js/453.0ff5e331.chunk.js",
-    "static/media/hero-image.png": "/felix-redka-web/static/media/hero-image.706e86de69c4818432a3.png",
+    "static/media/hero-image.png": "/felix-redka-web/static/media/hero-image.8532f6152f00dafdd8ae.png",
     "static/media/fa-solid-900.ttf": "/felix-redka-web/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/felix-redka-web/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/fa-solid-900.woff2": "/felix-redka-web/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
-    "static/media/header-open.jpg": "/felix-redka-web/static/media/header-open.28565b56eac4a189926c.jpg",
+    "static/media/header-open.jpg": "/felix-redka-web/static/media/header-open.9d152cd2ce9db80d61aa.jpg",
     "static/media/fa-brands-400.woff2": "/felix-redka-web/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/main-ticket.png": "/felix-redka-web/static/media/main-ticket.81a73e65786e4105efa1.png",
     "static/media/silka-semibold-webfont.ttf": "/felix-redka-web/static/media/silka-semibold-webfont.149a5f2da5d81ecd3f15.ttf",
@@ -20,12 +20,12 @@
     "static/media/fa-v4compatibility.ttf": "/felix-redka-web/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/felix-redka-web/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/felix-redka-web/index.html",
-    "main.1a46d820.css.map": "/felix-redka-web/static/css/main.1a46d820.css.map",
-    "main.9ebbb6ec.js.map": "/felix-redka-web/static/js/main.9ebbb6ec.js.map",
+    "main.bce3d918.css.map": "/felix-redka-web/static/css/main.bce3d918.css.map",
+    "main.eba841d0.js.map": "/felix-redka-web/static/js/main.eba841d0.js.map",
     "453.0ff5e331.chunk.js.map": "/felix-redka-web/static/js/453.0ff5e331.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a46d820.css",
-    "static/js/main.9ebbb6ec.js"
+    "static/css/main.bce3d918.css",
+    "static/js/main.eba841d0.js"
   ]
 }
