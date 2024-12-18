@@ -59,7 +59,7 @@ const Header: React.FC = () => {
           <nav className="header_nav">
             <ul className="header_menu">
               <li className="header_item">
-                <a href="/" className="text-title">Головна</a>
+                <a href="/felix-redka-web/" className="text-title">Головна</a>
               </li>
             </ul>
           </nav>
