@@ -7,7 +7,6 @@ const HeroSection: React.FC = () => {
     <section className="hero section" id="hero">
       <div className="hero_content">
         <h1 className="text-title">Майстер Гумору</h1>
-        <h2 className="text_description"></h2>
         {/* <button className="hero_button" onClick={() => alert('Дякуємо за замовлення!')}>
           Купити зараз
         </button> */}
