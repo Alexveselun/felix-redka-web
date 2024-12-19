@@ -85,12 +85,12 @@ a:focus { outline: none; }
   margin-left: 1rem;  
   margin-right: 1rem;
   margin: 0.5rem;
-  font-size: 13px;
+  font-size: 12px;
   color: #033;
 }
 
 .text_date{
-  font-size: 12px;
+  font-size: 14px;
   padding-top: 0.5rem;
   color: #033;
 }

@@ -18,24 +18,34 @@
 
 .footer_text {
   font-size: 14px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .footer_links {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
   list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
 }
 
 .footer_link {
-  font-size: 14px;
-  color: #ff5722;
+  font-size: 22px;
+  margin: 10px;
+  background-color: black;
+  transform: rotate(-7deg); /* Rotates the text 45 degrees */
+  display: inline-block; /* Ensures the element respects the transform */
+  color: white;
+  font-weight: bold;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  padding: 0.5rem 0.5rem;
+
 }
 
 .footer_link:hover {
-  color: #e64a19;
+  color: black;
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
