@@ -86,7 +86,7 @@ const Advantages: React.FC = () => {
 
   return (
     <section className="advantages section" id="advantages">
-      <div className="text-title">Європейський тур:</div>
+      {/* <div className="text-title">Європейський тур:</div> */}
       <div className="advantages list">
         {advantages.map((advantage) => (
           <div className="advantages item" key={advantage.id}>

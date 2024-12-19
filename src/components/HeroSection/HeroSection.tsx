@@ -6,8 +6,8 @@ const HeroSection: React.FC = () => {
   return (
     <section className="hero section" id="hero">
       <div className="hero_content">
-        <h1 className="text-title">Майстер Гумору</h1>
-        {/* <button className="hero_button" onClick={() => alert('Дякуємо за замовлення!')}>
+        <h1 className="text-title">Майстер <br />Гумору</h1>       
+         {/* <button className="hero_button" onClick={() => alert('Дякуємо за замовлення!')}>
           Купити зараз
         </button> */}
       </div>

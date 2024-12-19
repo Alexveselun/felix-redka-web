@@ -7,8 +7,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./assets/images/header/hero-image.png");
+  background-color: black;
+  background-position: center -130px;
   background-size: cover; /* Охоплює весь екран */
-  background-position: center center; /* Центрує фонове зображення */
   background-repeat: no-repeat; /* Забороняє повторення зображення */
 }
 
@@ -114,7 +115,6 @@ a:focus { outline: none; }
   border-radius: 8px;
   height: 200px;
   width: 300px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
