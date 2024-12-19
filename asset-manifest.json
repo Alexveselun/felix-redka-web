@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/felix-redka-web/static/css/main.8c6e27ed.css",
+    "main.css": "/felix-redka-web/static/css/main.0d32dc7e.css",
     "main.js": "/felix-redka-web/static/js/main.79281568.js",
     "static/js/453.0ff5e331.chunk.js": "/felix-redka-web/static/js/453.0ff5e331.chunk.js",
     "static/media/hero-image.png": "/felix-redka-web/static/media/hero-image.8532f6152f00dafdd8ae.png",
@@ -20,12 +20,12 @@
     "static/media/fa-v4compatibility.ttf": "/felix-redka-web/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/felix-redka-web/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/felix-redka-web/index.html",
-    "main.8c6e27ed.css.map": "/felix-redka-web/static/css/main.8c6e27ed.css.map",
+    "main.0d32dc7e.css.map": "/felix-redka-web/static/css/main.0d32dc7e.css.map",
     "main.79281568.js.map": "/felix-redka-web/static/js/main.79281568.js.map",
     "453.0ff5e331.chunk.js.map": "/felix-redka-web/static/js/453.0ff5e331.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c6e27ed.css",
+    "static/css/main.0d32dc7e.css",
     "static/js/main.79281568.js"
   ]
 }
